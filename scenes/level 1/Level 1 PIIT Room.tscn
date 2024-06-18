@@ -1,0 +1,505 @@
+[gd_scene load_steps=74 format=3 uid="uid://mfg6mpnd0ww3"]
+
+[ext_resource type="Script" path="res://scenes/level 1/Level 1 PIIT Room.gd" id="1_83b5r"]
+[ext_resource type="Texture2D" uid="uid://cyhgxbgtri3xl" path="res://sptites/PIIT_room/background/Stena.png" id="1_hl44j"]
+[ext_resource type="Texture2D" uid="uid://clv3hmt6xqwob" path="res://sptites/PIIT_room/background/Pol.png" id="2_3bato"]
+[ext_resource type="Texture2D" uid="uid://bybcyg1swyhu1" path="res://sptites/PIIT_room/furniture/Window.png" id="3_k1uwf"]
+[ext_resource type="Texture2D" uid="uid://buxyw7e6us7kf" path="res://sptites/PIIT_room/background/edges.png" id="3_thihc"]
+[ext_resource type="Texture2D" uid="uid://kjmqtu8mi8mw" path="res://sptites/PIIT_room/plants/Tree.png" id="5_urkeh"]
+[ext_resource type="Texture2D" uid="uid://ck42k2y7guxd6" path="res://sptites/PIIT_room/furniture/Kover.png" id="6_qvj2w"]
+[ext_resource type="Texture2D" uid="uid://d1yg4x5e4208b" path="res://sptites/PIIT_room/furniture/Shkaf.png" id="7_hp60f"]
+[ext_resource type="Texture2D" uid="uid://bkwarw217bgdn" path="res://sptites/PIIT_room/furniture/chest.png" id="8_kahyr"]
+[ext_resource type="Texture2D" uid="uid://cht21pdju7wmi" path="res://sptites/PIIT_room/posters/Svatoy Lavlick.png" id="10_pu8e0"]
+[ext_resource type="Texture2D" uid="uid://bwxxske33757c" path="res://sptites/PIIT_room/posters/NET lavlinsky.png" id="11_urpw8"]
+[ext_resource type="Texture2D" uid="uid://be550sp1y3uqk" path="res://sptites/PIIT_room/posters/Cool Endovitsky.png" id="12_thty7"]
+[ext_resource type="Texture2D" uid="uid://bfxqqbl1t6w8q" path="res://sptites/PIIT_room/light texture/window light.png" id="13_hijfw"]
+[ext_resource type="Texture2D" uid="uid://p88ubpx5kwfu" path="res://sptites/PIIT_room/furniture/book_shelf.png" id="13_rh5en"]
+[ext_resource type="Texture2D" uid="uid://dktfxb7k0cc8x" path="res://sptites/PIIT_room/posters/putin.png" id="14_7urun"]
+[ext_resource type="Texture2D" uid="uid://clqgkc2i68s3h" path="res://sptites/PIIT_room/furniture/sofa.png" id="15_ouk04"]
+[ext_resource type="Texture2D" uid="uid://bnqitj2sj5y8u" path="res://sptites/PIIT_room/plants/Circle plant.png" id="16_xwx64"]
+[ext_resource type="Texture2D" uid="uid://ckfssoyirsw5s" path="res://sptites/PIIT_room/furniture/table.png" id="17_1gryo"]
+[ext_resource type="Texture2D" uid="uid://br7pu2ve0thjw" path="res://sptites/PIIT_room/furniture/officechair.png" id="18_gxxhx"]
+[ext_resource type="Texture2D" uid="uid://4m3a03gyexj3" path="res://sptites/PIIT_room/furniture/floor_lamp.png" id="19_pj6nt"]
+[ext_resource type="Texture2D" uid="uid://2b5fphua4g3w" path="res://sptites/PIIT_room/light texture/circle_light.jpg" id="20_4rxbt"]
+[ext_resource type="Texture2D" uid="uid://clkj0q8fcdua3" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)1.png" id="21_73ugd"]
+[ext_resource type="Texture2D" uid="uid://c54ir8dx2ohtl" path="res://sptites/Characters/KOrotkov/idle/korotkov_demo-Sheet.png" id="21_84hwa"]
+[ext_resource type="Script" path="res://scenes/level 1/korotkov.gd" id="21_hordg"]
+[ext_resource type="Texture2D" uid="uid://c4pujn2owugai" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)2.png" id="22_p11h3"]
+[ext_resource type="Texture2D" uid="uid://dqbfhhyrpsxdc" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)3.png" id="23_sh73i"]
+[ext_resource type="Texture2D" uid="uid://cwr8tqiavb1pq" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)4.png" id="24_ynixe"]
+[ext_resource type="Texture2D" uid="uid://qju3xrtybo7q" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)5.png" id="25_d051o"]
+[ext_resource type="Texture2D" uid="uid://coejmcalnlsu7" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)6.png" id="26_0l06l"]
+[ext_resource type="Texture2D" uid="uid://clg2mj6vn13g4" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)1.png" id="27_vg83h"]
+[ext_resource type="Texture2D" uid="uid://c2etqxhx2t65t" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)2.png" id="28_matrd"]
+[ext_resource type="Texture2D" uid="uid://cwcq1qgnhw28o" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)3.png" id="29_gx7b7"]
+[ext_resource type="Texture2D" uid="uid://by2qsncjec81r" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)4.png" id="30_tnnjl"]
+[ext_resource type="Texture2D" uid="uid://clj0diprb80uo" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)5.png" id="31_1o7nx"]
+[ext_resource type="Texture2D" uid="uid://b21ni8u28yg42" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)6.png" id="32_ak57b"]
+[ext_resource type="Texture2D" uid="uid://pv2bstrfl0yo" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)1.png" id="34_ohf6j"]
+[ext_resource type="Texture2D" uid="uid://canu7u881850b" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)2.png" id="35_0t2s5"]
+[ext_resource type="Texture2D" uid="uid://b146v37pjyyav" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)3.png" id="36_bmayy"]
+[ext_resource type="Texture2D" uid="uid://lg6vap4ffjxf" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)4.png" id="37_7uo0i"]
+[ext_resource type="Texture2D" uid="uid://qshy58sq50gg" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)5.png" id="38_x7qr3"]
+[ext_resource type="Texture2D" uid="uid://cixd17urpeuw4" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)6.png" id="39_7a0dp"]
+[ext_resource type="Texture2D" uid="uid://bpef41m8q5uve" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)1.png" id="40_ss1wh"]
+[ext_resource type="Texture2D" uid="uid://bl5m52hbkndvn" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)2.png" id="41_fmqsn"]
+[ext_resource type="Texture2D" uid="uid://cjbls1ogrjmbr" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)3.png" id="42_soes1"]
+[ext_resource type="Texture2D" uid="uid://cqef1naevgjp3" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)4.png" id="43_ivf0a"]
+[ext_resource type="Texture2D" uid="uid://2ociewnqaqrp" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)5.png" id="44_wvjsy"]
+[ext_resource type="Texture2D" uid="uid://dqs4qydwnn6bs" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)6.png" id="45_dxm8u"]
+[ext_resource type="Texture2D" uid="uid://cxcae3adwrwnr" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)1.png" id="46_633jx"]
+[ext_resource type="Texture2D" uid="uid://d1vvqj3lb5gkt" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)2.png" id="47_j4wbl"]
+[ext_resource type="Texture2D" uid="uid://d1w0l3yaridqg" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)3.png" id="48_gnec6"]
+[ext_resource type="Texture2D" uid="uid://cjaoq8r7d78bn" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)4.png" id="49_cjsyq"]
+[ext_resource type="Texture2D" uid="uid://cr60as2rjnprq" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)5.png" id="50_a5ucv"]
+[ext_resource type="AudioStream" uid="uid://dfgcncq516v3b" path="res://sptites/Characters/KOrotkov/sounds/walking sound.mp3" id="50_gggjy"]
+[ext_resource type="Texture2D" uid="uid://cnyqhmaxje53s" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)6.png" id="51_xn66b"]
+[ext_resource type="AudioStream" uid="uid://v8hntnosb2p3" path="res://sptites/PIIT_room/sound/piit background music.mp3" id="53_njn4x"]
+[ext_resource type="Texture2D" uid="uid://dhomv2lxw42qn" path="res://sptites/PIIT_room/furniture/exit_door.png" id="55_jqc80"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8uray"]
+resource_name = "Wall with collision "
+texture = ExtResource("1_hl44j")
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bnxs3"]
+texture = ExtResource("2_3bato")
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_maoy4"]
+texture = ExtResource("3_thihc")
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -5.0625, -5, -5.0625, 5, 8, 5, 8, 8, -8, 8)
+1:0/0 = 0
+1:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:0/0/physics_layer_0/angular_velocity = 0.0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(5.0625, -8, 8, -8, 8, 8, 4.9375, 8)
+0:1/0 = 0
+0:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:1/0/physics_layer_0/angular_velocity = 0.0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.0625, -8, -5.0625, 8, -8, 8, -8, -8)
+1:1/0 = 0
+1:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:1/0/physics_layer_0/angular_velocity = 0.0
+1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 8, -8, 8, -8, 5.125, 8, 5.125)
+0:2/0 = 0
+0:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:2/0/physics_layer_0/angular_velocity = 0.0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, -5.125, -8, -5, -8, -8, 8, -8)
+1:2/0 = 0
+1:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:2/0/physics_layer_0/angular_velocity = 0.0
+1:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, -5, 4.5625, -5, 4.8125, -8, 8, -8)
+0:3/0 = 0
+0:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:3/0/physics_layer_0/angular_velocity = 0.0
+0:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-4.9375, -5, -8, -5.125, -8, -8, -5.0625, -8)
+1:3/0 = 0
+1:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:3/0/physics_layer_0/angular_velocity = 0.0
+1:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 8, 5.0625, 8, 5.1875, 5.125, 8, 5.125)
+0:4/0 = 0
+0:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:4/0/physics_layer_0/angular_velocity = 0.0
+0:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.0625, 8, -8, 8, -8, 5.25, -5.0625, 5.125)
+1:4/0 = 0
+1:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:4/0/physics_layer_0/angular_velocity = 0.0
+1:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 8, -8, 8, -8, 5, 8, 5)
+1:4/0/physics_layer_0/polygon_1/points = PackedVector2Array(-8, -8, 8, -8, 8, -5.125, -8, -5.125)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5c32t"]
+resource_name = "Wall without collision"
+texture = ExtResource("1_hl44j")
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+
+[sub_resource type="TileSet" id="TileSet_tt67j"]
+physics_layer_0/collision_layer = 3
+sources/0 = SubResource("TileSetAtlasSource_8uray")
+sources/1 = SubResource("TileSetAtlasSource_bnxs3")
+sources/2 = SubResource("TileSetAtlasSource_maoy4")
+sources/4 = SubResource("TileSetAtlasSource_5c32t")
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_ma83w"]
+polygon = PackedVector2Array(-8, -12, 8, -12, 8, 12, -8, 12)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_readv"]
+texture = ExtResource("3_k1uwf")
+texture_region_size = Vector2i(16, 24)
+0:0/0 = 0
+0:0/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_ma83w")
+
+[sub_resource type="TileSet" id="TileSet_xge7n"]
+tile_size = Vector2i(16, 24)
+occlusion_layer_0/light_mask = 1
+sources/0 = SubResource("TileSetAtlasSource_readv")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0idnq"]
+size = Vector2(91, 113.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_46iwk"]
+size = Vector2(164, 15.25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_es4dp"]
+size = Vector2(13.9992, 7.7798)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qwi21"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("21_73ugd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_p11h3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_sh73i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ynixe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_d051o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_0l06l")
+}],
+"loop": true,
+"name": &"down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("27_vg83h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_matrd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_gx7b7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_tnnjl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_1o7nx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_ak57b")
+}],
+"loop": true,
+"name": &"down right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("21_84hwa")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("34_ohf6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_0t2s5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_bmayy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_7uo0i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_x7qr3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_7a0dp")
+}],
+"loop": true,
+"name": &"right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("40_ss1wh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_fmqsn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_soes1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_ivf0a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_wvjsy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_dxm8u")
+}],
+"loop": true,
+"name": &"up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("46_633jx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_j4wbl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_gnec6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_cjsyq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_a5ucv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_xn66b")
+}],
+"loop": true,
+"name": &"up right",
+"speed": 9.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8q6y0"]
+size = Vector2(42, 123)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tgud2"]
+size = Vector2(44, 37.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_atvk8"]
+size = Vector2(10.75, 7.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ddy8g"]
+size = Vector2(186, 33)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1mh6u"]
+size = Vector2(23.25, 64)
+
+[node name="Level 1 PIIT Room" type="Node2D"]
+script = ExtResource("1_83b5r")
+
+[node name="PIIT Background" type="TileMap" parent="."]
+position = Vector2(1, 0)
+scale = Vector2(4, 3.98854)
+tile_set = SubResource("TileSet_tt67j")
+format = 2
+layer_0/tile_data = PackedInt32Array(0, 0, 0, 65536, 4, 0, 1, 0, 0, 65537, 4, 0, 2, 0, 0, 65538, 4, 0, 3, 0, 0, 65539, 4, 0, 4, 0, 0, 65540, 4, 0, 5, 0, 0, 65541, 4, 0, 6, 0, 0, 7, 0, 0, 8, 0, 0, 65544, 4, 0, 131072, 1, 0, 196608, 1, 0, 131073, 1, 0, 196609, 1, 0, 131074, 1, 0, 196610, 1, 0, 131075, 1, 0, 196611, 1, 0, 131076, 1, 0, 196612, 1, 0, 131077, 1, 0, 131078, 1, 0, 196614, 1, 0, 131079, 1, 0, 196615, 1, 0, 131080, 1, 0, 196616, 1, 0, 262144, 1, 0, 262145, 1, 0, 262146, 1, 0, 262147, 1, 0, 262148, 1, 0, 262149, 1, 0, 262150, 1, 0, 262151, 1, 0, 262152, 1, 0, 131081, 1, 0, 196617, 1, 0, 262153, 1, 0, 131082, 1, 0, 196618, 1, 0, 262154, 1, 0, 9, 0, 0, 65545, 4, 0, 10, 0, 0, 65546, 4, 0, 196613, 1, 0, 327680, 1, 0, 393216, 1, 0, 393217, 1, 0, 327681, 1, 0, 327682, 1, 0, 393218, 1, 0, 458752, 1, 0, 458753, 1, 0, 458754, 1, 0, 393219, 0, 0, 393220, 0, 0, 458755, 4, 0, 458756, 4, 0, 393221, 0, 0, 458757, 4, 0, 393222, 0, 0, 458758, 4, 0, 393223, 0, 0, 458759, 4, 0, 393224, 0, 0, 458760, 4, 0, 524288, 1, 0, 589824, 1, 0, 655360, 1, 0, 524289, 1, 0, 589825, 1, 0, 655361, 1, 0, 524290, 1, 0, 589826, 1, 0, 655362, 1, 0, 524291, 1, 0, 589827, 1, 0, 655363, 1, 0, 524292, 1, 0, 589828, 1, 0, 655364, 1, 0, 524293, 1, 0, 589829, 1, 0, 655365, 1, 0, 524294, 1, 0, 589830, 1, 0, 655366, 1, 0, 524295, 1, 0, 589831, 1, 0, 655367, 1, 0, 524296, 1, 0, 589832, 1, 0, 655368, 1, 0, 327683, 2, 0, 327684, 65538, 4, 327685, 65538, 4, 327686, 65538, 4, 327687, 65538, 4, 327688, 65538, 4, 327689, 2, 2, 393225, 2, 1, 458761, 2, 1, 524297, 2, 1, 655369, 2, 1, 720904, 2, 2, 720903, 2, 2, 720902, 2, 2, 720901, 2, 2, 720900, 2, 2, 720899, 2, 2, 720898, 2, 2, 720897, 2, 2, 720896, 2, 2, 720895, 65538, 0, 655359, 65538, 0, 589823, 65538, 0, 524287, 65538, 0, 458751, 65538, 0, 393215, 65538, 0, 327679, 65538, 0, 262143, 65538, 0, 196607, 65538, 0, 131071, 65538, 0, 65535, 65538, 0, 327690, 2, 2, -65536, 65538, 1, -65535, 65538, 1, -65534, 65538, 1, -65533, 65538, 1, -65532, 65538, 1, -65531, 65538, 1, -65530, 65538, 1, -65529, 65538, 1, -65528, 65538, 1, -65527, 65538, 1, -65526, 65538, 1, 11, 2, 1, 65547, 2, 1, 131083, 2, 1, 196619, 2, 1, 262155, 2, 1, 327691, 2, 3, -1, 65538, 3, -65525, 2, 4, 720905, 2, 3, 786431, 65538, 2, 65542, 4, 0, 65543, 4, 0)
+
+[node name="Windows" type="TileMap" parent="."]
+texture_filter = 1
+position = Vector2(0, 16)
+scale = Vector2(4, 4)
+tile_set = SubResource("TileSet_xge7n")
+format = 2
+layer_0/tile_data = PackedInt32Array(8, 0, 0, 5, 0, 0, 2, 0, 0)
+
+[node name="Tree" type="Sprite2D" parent="."]
+position = Vector2(440, 479)
+scale = Vector2(4, 4)
+texture = ExtResource("5_urkeh")
+
+[node name="Kover" type="Sprite2D" parent="."]
+position = Vector2(108, 414)
+scale = Vector2(4, 3.36458)
+texture = ExtResource("6_qvj2w")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+
+[node name="Shkaf" type="Sprite2D" parent="StaticBody2D2"]
+position = Vector2(53, 93)
+scale = Vector2(2.85938, 2.85938)
+texture = ExtResource("7_hp60f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2(53.5, 58.25)
+shape = SubResource("RectangleShape2D_0idnq")
+
+[node name="SvatoyLavlick" type="Sprite2D" parent="."]
+position = Vector2(651, 63)
+scale = Vector2(0.178812, 0.178812)
+texture = ExtResource("10_pu8e0")
+
+[node name="PointLight2D" type="PointLight2D" parent="SvatoyLavlick"]
+position = Vector2(5.59259, -106.257)
+scale = Vector2(0.963326, 0.963326)
+energy = 0.45
+texture = ExtResource("20_4rxbt")
+texture_scale = 1.43
+
+[node name="NetLavlinsky" type="Sprite2D" parent="."]
+position = Vector2(523, 445)
+scale = Vector2(0.0795256, 0.0795256)
+texture = ExtResource("11_urpw8")
+
+[node name="CoolEndovitsky" type="Sprite2D" parent="."]
+position = Vector2(328, 445)
+scale = Vector2(0.606908, 0.606908)
+texture = ExtResource("12_thty7")
+
+[node name="BookShelf" type="Sprite2D" parent="."]
+position = Vector2(448, 45)
+scale = Vector2(2.98438, 2.98438)
+texture = ExtResource("13_rh5en")
+
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
+color = Color(0.815686, 0.815686, 0.815686, 1)
+
+[node name="Light 1 window" type="Node2D" parent="."]
+
+[node name="PointLight2D" type="PointLight2D" parent="Light 1 window"]
+position = Vector2(162, 204)
+scale = Vector2(0.190156, 0.45875)
+energy = 3.21
+texture = ExtResource("13_hijfw")
+
+[node name="Putin" type="Sprite2D" parent="."]
+position = Vector2(248, 41)
+scale = Vector2(0.0168608, 0.0168608)
+texture = ExtResource("14_7urun")
+
+[node name="Light 2 window" type="Node2D" parent="."]
+
+[node name="PointLight2D" type="PointLight2D" parent="Light 2 window"]
+position = Vector2(545, 207)
+scale = Vector2(0.192656, 0.45875)
+energy = 3.21
+texture = ExtResource("13_hijfw")
+
+[node name="Light 3 window" type="Node2D" parent="."]
+
+[node name="PointLight2D" type="PointLight2D" parent="Light 3 window"]
+position = Vector2(353, 207)
+scale = Vector2(0.192656, 0.45875)
+energy = 4.52
+shadow_filter = 1
+shadow_filter_smooth = 24.6
+texture = ExtResource("13_hijfw")
+
+[node name="Area2D2" type="StaticBody2D" parent="."]
+
+[node name="Table" type="Sprite2D" parent="Area2D2"]
+position = Vector2(417, 177)
+scale = Vector2(3.45028, 3.06836)
+texture = ExtResource("17_1gryo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(418, 137.375)
+shape = SubResource("RectangleShape2D_46iwk")
+
+[node name="Officechair" type="Sprite2D" parent="."]
+position = Vector2(452, 181)
+scale = Vector2(4.44413, 4.44413)
+texture = ExtResource("18_gxxhx")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sunduk" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(679, 210)
+scale = Vector2(3.21446, 4.24175)
+texture = ExtResource("8_kahyr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(681.5, 166.5)
+scale = Vector2(3.21446, 4.24175)
+shape = SubResource("RectangleShape2D_es4dp")
+
+[node name="KOrotkov player" type="CharacterBody2D" parent="."]
+script = ExtResource("21_hordg")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="KOrotkov player"]
+position = Vector2(198, 219)
+scale = Vector2(3.5, 3.5)
+sprite_frames = SubResource("SpriteFrames_qwi21")
+animation = &"down right"
+speed_scale = 1.5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KOrotkov player"]
+light_mask = 5
+position = Vector2(194, 230.5)
+shape = SubResource("RectangleShape2D_8q6y0")
+
+[node name="Camera2D" type="Camera2D" parent="KOrotkov player"]
+position = Vector2(197, 239)
+
+[node name="walk_sound" type="AudioStreamPlayer" parent="KOrotkov player"]
+stream = ExtResource("50_gggjy")
+volume_db = 6.803
+bus = &"Sounds"
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="."]
+
+[node name="CirclePlant" type="Sprite2D" parent="StaticBody2D3"]
+modulate = Color(0.996078, 0.886275, 0.807843, 1)
+position = Vector2(39, 639)
+scale = Vector2(4, 4)
+texture = ExtResource("16_xwx64")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3"]
+position = Vector2(40, 672.75)
+shape = SubResource("RectangleShape2D_tgud2")
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="."]
+position = Vector2(460, 639)
+scale = Vector2(4, 4)
+
+[node name="FloorLamp" type="Sprite2D" parent="StaticBody2D5"]
+texture = ExtResource("19_pj6nt")
+
+[node name="PointLight2D" type="PointLight2D" parent="StaticBody2D5/FloorLamp"]
+position = Vector2(0.500003, -11.5)
+scale = Vector2(22.832, 22.832)
+energy = 0.72
+texture = ExtResource("20_4rxbt")
+texture_scale = 0.01
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D5"]
+position = Vector2(0, 10.5)
+shape = SubResource("RectangleShape2D_atvk8")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="."]
+
+[node name="Sofa" type="Sprite2D" parent="StaticBody2D4"]
+position = Vector2(329, 654)
+scale = Vector2(6.1875, 5.34375)
+texture = ExtResource("15_ouk04")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D4"]
+position = Vector2(329, 678.5)
+shape = SubResource("RectangleShape2D_ddy8g")
+
+[node name="PIIT background music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("53_njn4x")
+volume_db = -15.307
+autoplay = true
+bus = &"Music"
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="ExitDoor" type="Sprite2D" parent="Area2D"]
+position = Vector2(590, 607)
+scale = Vector2(3.25, 8.125)
+texture = ExtResource("55_jqc80")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(582.375, 607)
+shape = SubResource("RectangleShape2D_1mh6u")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

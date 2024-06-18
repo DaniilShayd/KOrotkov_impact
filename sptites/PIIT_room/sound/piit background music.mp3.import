@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://v8hntnosb2p3"
+path="res://.godot/imported/piit background music.mp3-501f50ad9ea17318c448b65740349a99.mp3str"
+
+[deps]
+
+source_file="res://sptites/PIIT_room/sound/piit background music.mp3"
+dest_files=["res://.godot/imported/piit background music.mp3-501f50ad9ea17318c448b65740349a99.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4
