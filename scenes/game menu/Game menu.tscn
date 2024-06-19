@@ -1,6 +1,5 @@
 [gd_scene load_steps=8 format=3 uid="uid://dsc200r2m121r"]
 
-[ext_resource type="Script" path="res://scenes/game menu/game menu.gd" id="1_h8ug2"]
 [ext_resource type="Texture2D" uid="uid://d3q8uio7yp54m" path="res://sptites/game menu/Main menu background.png" id="2_f8600"]
 [ext_resource type="Texture2D" uid="uid://dx4m2v7senqyr" path="res://sptites/game menu/game logo.png" id="3_p7eko"]
 [ext_resource type="Texture2D" uid="uid://bbbtsxgqkxdvy" path="res://sptites/game menu/Button icons/doom-bigupper--.png" id="4_t88h1"]
@@ -8,8 +7,36 @@
 [ext_resource type="AudioStream" uid="uid://cysoxfyudjmuu" path="res://sptites/game menu/music/Menu music.mp3" id="6_cnsj7"]
 [ext_resource type="AudioStream" uid="uid://d155sh0o11mef" path="res://sptites/game menu/music/GOIDA.mp3" id="7_jhucb"]
 
+[sub_resource type="GDScript" id="GDScript_fg8qu"]
+script/source = "extends Node2D
+
+@onready var goida = $GOIDA
+@onready var menu_music = $\"Menu music\"
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+
+
+func _on_start_game_pressed():
+	#menu_music.stop()
+	goida.play()
+	await goida.finished
+	get_tree().change_scene_to_file(\"res://scenes/level 1/Level 1 PIIT Room.tscn\")
+	
+
+
+func _on_exit_pressed():
+	get_tree().quit()
+"
+
 [node name="GameMenu" type="Node2D"]
-script = ExtResource("1_h8ug2")
+script = SubResource("GDScript_fg8qu")
 
 [node name="MainMenuBackground" type="Sprite2D" parent="."]
 position = Vector2(576, 327)
