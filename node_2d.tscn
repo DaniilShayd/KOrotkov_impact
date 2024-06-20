@@ -1,0 +1,39 @@
+[gd_scene load_steps=7 format=3 uid="uid://dm6xehpuh2hhs"]
+
+[ext_resource type="Script" path="res://scenes/level 2/Enemy.gd" id="1_sbrof"]
+[ext_resource type="Texture2D" uid="uid://d1w0l3yaridqg" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)3.png" id="2_1sh8r"]
+[ext_resource type="Script" path="res://scenes/level 2/State machine.gd" id="8_yug8y"]
+[ext_resource type="Script" path="res://scripts/characters/enemy/EnemyIdle.gd" id="9_o5qyg"]
+[ext_resource type="Script" path="res://scripts/characters/enemy/EnemyFollow.gd" id="10_3tbgd"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_gpmsr"]
+radius = 22.0
+height = 81.3344
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Enemy" type="CharacterBody2D" parent="."]
+position = Vector2(106, 230)
+motion_mode = 1
+wall_min_slide_angle = 0.0
+script = ExtResource("1_sbrof")
+
+[node name="Sprite2D" type="Sprite2D" parent="Enemy"]
+scale = Vector2(4, 4)
+texture = ExtResource("2_1sh8r")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy"]
+position = Vector2(0, 0.999985)
+scale = Vector2(1.20666, 1.4508)
+shape = SubResource("CapsuleShape2D_gpmsr")
+
+[node name="State machine" type="Node" parent="Enemy" node_paths=PackedStringArray("initial_state")]
+script = ExtResource("8_yug8y")
+initial_state = NodePath("EnemyIdle")
+
+[node name="EnemyIdle" type="Node" parent="Enemy/State machine" node_paths=PackedStringArray("enemy")]
+script = ExtResource("9_o5qyg")
+enemy = NodePath("../..")
+
+[node name="EnemyFollow" type="Node" parent="Enemy/State machine"]
+script = ExtResource("10_3tbgd")

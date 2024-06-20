@@ -11,7 +11,7 @@
 script/source = "extends Node2D
 
 @onready var goida = $GOIDA
-@onready var menu_music = $\"Menu music\"
+@onready var menu_music = $\"Menu music\" 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

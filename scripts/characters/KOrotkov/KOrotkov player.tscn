@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dv425cvdv2ifr"]
+
+[ext_resource type="Script" path="res://scenes/level 1/korotkov.gd" id="1_cd2nq"]
+
+[node name="KOrotkov player" type="CharacterBody2D"]
+position = Vector2(-61, 375)
+script = ExtResource("1_cd2nq")

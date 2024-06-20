@@ -1,4 +1,4 @@
-[gd_scene load_steps=75 format=3 uid="uid://mfg6mpnd0ww3"]
+[gd_scene load_steps=84 format=3 uid="uid://mfg6mpnd0ww3"]
 
 [ext_resource type="Script" path="res://scenes/level 1/Level 1 PIIT Room.gd" id="1_83b5r"]
 [ext_resource type="Texture2D" uid="uid://cyhgxbgtri3xl" path="res://sptites/PIIT_room/background/Stena.png" id="1_hl44j"]
@@ -21,42 +21,43 @@
 [ext_resource type="Texture2D" uid="uid://br7pu2ve0thjw" path="res://sptites/PIIT_room/furniture/officechair.png" id="18_gxxhx"]
 [ext_resource type="Texture2D" uid="uid://4m3a03gyexj3" path="res://sptites/PIIT_room/furniture/floor_lamp.png" id="19_pj6nt"]
 [ext_resource type="Texture2D" uid="uid://2b5fphua4g3w" path="res://sptites/PIIT_room/light texture/circle_light.jpg" id="20_4rxbt"]
-[ext_resource type="Texture2D" uid="uid://clkj0q8fcdua3" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)1.png" id="21_73ugd"]
-[ext_resource type="Texture2D" uid="uid://c54ir8dx2ohtl" path="res://sptites/Characters/KOrotkov/idle/korotkov_demo-Sheet.png" id="21_84hwa"]
-[ext_resource type="Script" path="res://scenes/level 1/korotkov.gd" id="21_hordg"]
-[ext_resource type="Texture2D" uid="uid://c4pujn2owugai" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)2.png" id="22_p11h3"]
-[ext_resource type="Texture2D" uid="uid://dqbfhhyrpsxdc" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)3.png" id="23_sh73i"]
-[ext_resource type="Texture2D" uid="uid://cwr8tqiavb1pq" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)4.png" id="24_ynixe"]
-[ext_resource type="Texture2D" uid="uid://qju3xrtybo7q" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)5.png" id="25_d051o"]
-[ext_resource type="Texture2D" uid="uid://coejmcalnlsu7" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)6.png" id="26_0l06l"]
-[ext_resource type="Texture2D" uid="uid://clg2mj6vn13g4" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)1.png" id="27_vg83h"]
-[ext_resource type="Texture2D" uid="uid://c2etqxhx2t65t" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)2.png" id="28_matrd"]
-[ext_resource type="Texture2D" uid="uid://cwcq1qgnhw28o" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)3.png" id="29_gx7b7"]
-[ext_resource type="Texture2D" uid="uid://by2qsncjec81r" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)4.png" id="30_tnnjl"]
-[ext_resource type="Texture2D" uid="uid://clj0diprb80uo" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)5.png" id="31_1o7nx"]
-[ext_resource type="Texture2D" uid="uid://b21ni8u28yg42" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)6.png" id="32_ak57b"]
-[ext_resource type="Texture2D" uid="uid://pv2bstrfl0yo" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)1.png" id="34_ohf6j"]
-[ext_resource type="Texture2D" uid="uid://canu7u881850b" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)2.png" id="35_0t2s5"]
-[ext_resource type="Texture2D" uid="uid://b146v37pjyyav" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)3.png" id="36_bmayy"]
-[ext_resource type="Texture2D" uid="uid://lg6vap4ffjxf" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)4.png" id="37_7uo0i"]
-[ext_resource type="Texture2D" uid="uid://qshy58sq50gg" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)5.png" id="38_x7qr3"]
-[ext_resource type="Texture2D" uid="uid://cixd17urpeuw4" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)6.png" id="39_7a0dp"]
-[ext_resource type="Texture2D" uid="uid://bpef41m8q5uve" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)1.png" id="40_ss1wh"]
-[ext_resource type="Texture2D" uid="uid://bl5m52hbkndvn" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)2.png" id="41_fmqsn"]
-[ext_resource type="Texture2D" uid="uid://cjbls1ogrjmbr" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)3.png" id="42_soes1"]
-[ext_resource type="Texture2D" uid="uid://cqef1naevgjp3" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)4.png" id="43_ivf0a"]
-[ext_resource type="Texture2D" uid="uid://2ociewnqaqrp" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)5.png" id="44_wvjsy"]
-[ext_resource type="Texture2D" uid="uid://dqs4qydwnn6bs" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)6.png" id="45_dxm8u"]
-[ext_resource type="Texture2D" uid="uid://cxcae3adwrwnr" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)1.png" id="46_633jx"]
-[ext_resource type="Texture2D" uid="uid://d1vvqj3lb5gkt" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)2.png" id="47_j4wbl"]
-[ext_resource type="Texture2D" uid="uid://d1w0l3yaridqg" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)3.png" id="48_gnec6"]
-[ext_resource type="Texture2D" uid="uid://cjaoq8r7d78bn" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)4.png" id="49_cjsyq"]
-[ext_resource type="Texture2D" uid="uid://cr60as2rjnprq" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)5.png" id="50_a5ucv"]
-[ext_resource type="AudioStream" uid="uid://dfgcncq516v3b" path="res://sptites/Characters/KOrotkov/sounds/walking sound.mp3" id="50_gggjy"]
-[ext_resource type="Texture2D" uid="uid://cnyqhmaxje53s" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)6.png" id="51_xn66b"]
+[ext_resource type="Script" path="res://scenes/level 1/korotkov.gd" id="25_y3djm"]
+[ext_resource type="Texture2D" uid="uid://clkj0q8fcdua3" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)1.png" id="26_8iy8h"]
+[ext_resource type="Texture2D" uid="uid://c4pujn2owugai" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)2.png" id="27_7tvds"]
+[ext_resource type="Texture2D" uid="uid://dqbfhhyrpsxdc" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)3.png" id="28_vpbyd"]
+[ext_resource type="Texture2D" uid="uid://cwr8tqiavb1pq" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)4.png" id="29_brkjf"]
+[ext_resource type="Texture2D" uid="uid://qju3xrtybo7q" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)5.png" id="30_cuvjy"]
+[ext_resource type="Texture2D" uid="uid://coejmcalnlsu7" path="res://sptites/Characters/KOrotkov/down/korotkovRUN(bez S)6.png" id="31_aw6xf"]
+[ext_resource type="Texture2D" uid="uid://clg2mj6vn13g4" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)1.png" id="32_vrvs2"]
+[ext_resource type="Texture2D" uid="uid://c2etqxhx2t65t" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)2.png" id="33_afws2"]
+[ext_resource type="Texture2D" uid="uid://cwcq1qgnhw28o" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)3.png" id="34_2ie70"]
+[ext_resource type="Texture2D" uid="uid://by2qsncjec81r" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)4.png" id="35_ysv1c"]
+[ext_resource type="Texture2D" uid="uid://clj0diprb80uo" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)5.png" id="36_t805c"]
+[ext_resource type="Texture2D" uid="uid://b21ni8u28yg42" path="res://sptites/Characters/KOrotkov/down right/korotkovRUN(bez S)6.png" id="37_ro183"]
+[ext_resource type="Texture2D" uid="uid://c54ir8dx2ohtl" path="res://sptites/Characters/KOrotkov/idle/korotkov_demo-Sheet.png" id="38_oyofs"]
+[ext_resource type="Texture2D" uid="uid://pv2bstrfl0yo" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)1.png" id="39_s8q7v"]
+[ext_resource type="Texture2D" uid="uid://canu7u881850b" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)2.png" id="40_r2h4c"]
+[ext_resource type="Texture2D" uid="uid://b146v37pjyyav" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)3.png" id="41_svv0j"]
+[ext_resource type="Texture2D" uid="uid://lg6vap4ffjxf" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)4.png" id="42_1cjxj"]
+[ext_resource type="Texture2D" uid="uid://qshy58sq50gg" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)5.png" id="43_sy4o3"]
+[ext_resource type="Texture2D" uid="uid://cixd17urpeuw4" path="res://sptites/Characters/KOrotkov/right/korotkovRUN(bez S)6.png" id="44_bhgdp"]
+[ext_resource type="Texture2D" uid="uid://bpef41m8q5uve" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)1.png" id="45_edp0g"]
+[ext_resource type="Texture2D" uid="uid://bl5m52hbkndvn" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)2.png" id="46_dnv65"]
+[ext_resource type="Texture2D" uid="uid://cjbls1ogrjmbr" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)3.png" id="47_vdk5o"]
+[ext_resource type="Texture2D" uid="uid://cqef1naevgjp3" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)4.png" id="48_2x4yh"]
+[ext_resource type="Texture2D" uid="uid://2ociewnqaqrp" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)5.png" id="49_kbnie"]
+[ext_resource type="Texture2D" uid="uid://dqs4qydwnn6bs" path="res://sptites/Characters/KOrotkov/up/korotkovRUN(bez S)6.png" id="50_ogj0m"]
+[ext_resource type="Texture2D" uid="uid://cxcae3adwrwnr" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)1.png" id="51_5nvdr"]
+[ext_resource type="Texture2D" uid="uid://d1vvqj3lb5gkt" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)2.png" id="52_tbsto"]
 [ext_resource type="AudioStream" uid="uid://v8hntnosb2p3" path="res://sptites/PIIT_room/sound/piit background music.mp3" id="53_njn4x"]
+[ext_resource type="Texture2D" uid="uid://d1w0l3yaridqg" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)3.png" id="53_s6khv"]
+[ext_resource type="Texture2D" uid="uid://cjaoq8r7d78bn" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)4.png" id="54_4m7wm"]
 [ext_resource type="Texture2D" uid="uid://dhomv2lxw42qn" path="res://sptites/PIIT_room/furniture/exit_door.png" id="55_jqc80"]
+[ext_resource type="Texture2D" uid="uid://cr60as2rjnprq" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)5.png" id="55_yfmhv"]
+[ext_resource type="Texture2D" uid="uid://cnyqhmaxje53s" path="res://sptites/Characters/KOrotkov/right up/korotkovRUN(bez S)6.png" id="56_mtowl"]
 [ext_resource type="PackedScene" uid="uid://bk0nfo5btjpxm" path="res://scenes/pause menu/pause_menu.tscn" id="57_f0vc6"]
+[ext_resource type="AudioStream" uid="uid://dfgcncq516v3b" path="res://sptites/Characters/KOrotkov/sounds/walking sound.mp3" id="57_fb7tv"]
+[ext_resource type="Texture2D" uid="uid://bges64ltqpf3h" path="res://sptites/Characters/KOrotkov/attack/Udar-Sheet.png" id="58_m6h0v"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8uray"]
 resource_name = "Wall with collision "
@@ -150,29 +151,26 @@ size = Vector2(91, 113.5)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_46iwk"]
 size = Vector2(164, 15.25)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_es4dp"]
-size = Vector2(13.9992, 7.7798)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_qwi21"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_fpn3v"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("21_73ugd")
+"texture": ExtResource("26_8iy8h")
 }, {
 "duration": 1.0,
-"texture": ExtResource("22_p11h3")
+"texture": ExtResource("27_7tvds")
 }, {
 "duration": 1.0,
-"texture": ExtResource("23_sh73i")
+"texture": ExtResource("28_vpbyd")
 }, {
 "duration": 1.0,
-"texture": ExtResource("24_ynixe")
+"texture": ExtResource("29_brkjf")
 }, {
 "duration": 1.0,
-"texture": ExtResource("25_d051o")
+"texture": ExtResource("30_cuvjy")
 }, {
 "duration": 1.0,
-"texture": ExtResource("26_0l06l")
+"texture": ExtResource("31_aw6xf")
 }],
 "loop": true,
 "name": &"down",
@@ -180,22 +178,22 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("27_vg83h")
+"texture": ExtResource("32_vrvs2")
 }, {
 "duration": 1.0,
-"texture": ExtResource("28_matrd")
+"texture": ExtResource("33_afws2")
 }, {
 "duration": 1.0,
-"texture": ExtResource("29_gx7b7")
+"texture": ExtResource("34_2ie70")
 }, {
 "duration": 1.0,
-"texture": ExtResource("30_tnnjl")
+"texture": ExtResource("35_ysv1c")
 }, {
 "duration": 1.0,
-"texture": ExtResource("31_1o7nx")
+"texture": ExtResource("36_t805c")
 }, {
 "duration": 1.0,
-"texture": ExtResource("32_ak57b")
+"texture": ExtResource("37_ro183")
 }],
 "loop": true,
 "name": &"down right",
@@ -203,7 +201,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("21_84hwa")
+"texture": ExtResource("38_oyofs")
 }],
 "loop": true,
 "name": &"idle",
@@ -211,22 +209,22 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("34_ohf6j")
+"texture": ExtResource("39_s8q7v")
 }, {
 "duration": 1.0,
-"texture": ExtResource("35_0t2s5")
+"texture": ExtResource("40_r2h4c")
 }, {
 "duration": 1.0,
-"texture": ExtResource("36_bmayy")
+"texture": ExtResource("41_svv0j")
 }, {
 "duration": 1.0,
-"texture": ExtResource("37_7uo0i")
+"texture": ExtResource("42_1cjxj")
 }, {
 "duration": 1.0,
-"texture": ExtResource("38_x7qr3")
+"texture": ExtResource("43_sy4o3")
 }, {
 "duration": 1.0,
-"texture": ExtResource("39_7a0dp")
+"texture": ExtResource("44_bhgdp")
 }],
 "loop": true,
 "name": &"right",
@@ -234,22 +232,22 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("40_ss1wh")
+"texture": ExtResource("45_edp0g")
 }, {
 "duration": 1.0,
-"texture": ExtResource("41_fmqsn")
+"texture": ExtResource("46_dnv65")
 }, {
 "duration": 1.0,
-"texture": ExtResource("42_soes1")
+"texture": ExtResource("47_vdk5o")
 }, {
 "duration": 1.0,
-"texture": ExtResource("43_ivf0a")
+"texture": ExtResource("48_2x4yh")
 }, {
 "duration": 1.0,
-"texture": ExtResource("44_wvjsy")
+"texture": ExtResource("49_kbnie")
 }, {
 "duration": 1.0,
-"texture": ExtResource("45_dxm8u")
+"texture": ExtResource("50_ogj0m")
 }],
 "loop": true,
 "name": &"up",
@@ -257,30 +255,87 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("46_633jx")
+"texture": ExtResource("51_5nvdr")
 }, {
 "duration": 1.0,
-"texture": ExtResource("47_j4wbl")
+"texture": ExtResource("52_tbsto")
 }, {
 "duration": 1.0,
-"texture": ExtResource("48_gnec6")
+"texture": ExtResource("53_s6khv")
 }, {
 "duration": 1.0,
-"texture": ExtResource("49_cjsyq")
+"texture": ExtResource("54_4m7wm")
 }, {
 "duration": 1.0,
-"texture": ExtResource("50_a5ucv")
+"texture": ExtResource("55_yfmhv")
 }, {
 "duration": 1.0,
-"texture": ExtResource("51_xn66b")
+"texture": ExtResource("56_mtowl")
 }],
 "loop": true,
 "name": &"up right",
 "speed": 9.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_8q6y0"]
-size = Vector2(42, 123)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tu72a"]
+radius = 20.0
+height = 118.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7e3cj"]
+atlas = ExtResource("58_m6h0v")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_of763"]
+atlas = ExtResource("58_m6h0v")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0fmm3"]
+atlas = ExtResource("58_m6h0v")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f8nfq"]
+atlas = ExtResource("58_m6h0v")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bdc1k"]
+atlas = ExtResource("58_m6h0v")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1hard"]
+atlas = ExtResource("58_m6h0v")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hcdvj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7e3cj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_of763")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0fmm3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f8nfq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bdc1k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1hard")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_pebfw"]
+radius = 86.1452
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_es4dp"]
+size = Vector2(13.9992, 7.7798)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tgud2"]
 size = Vector2(44, 37.5)
@@ -292,7 +347,7 @@ size = Vector2(10.75, 7.75)
 size = Vector2(186, 33)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1mh6u"]
-size = Vector2(23.25, 64)
+size = Vector2(22, 64)
 
 [node name="Level 1 PIIT Room" type="Node2D"]
 script = ExtResource("1_83b5r")
@@ -410,6 +465,48 @@ position = Vector2(452, 181)
 scale = Vector2(4.44413, 4.44413)
 texture = ExtResource("18_gxxhx")
 
+[node name="KOrotkov player" type="CharacterBody2D" parent="."]
+position = Vector2(139, 211)
+script = ExtResource("25_y3djm")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="KOrotkov player"]
+position = Vector2(3, -12)
+scale = Vector2(3.5, 3.5)
+sprite_frames = SubResource("SpriteFrames_fpn3v")
+animation = &"down"
+speed_scale = 1.5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KOrotkov player"]
+light_mask = 5
+position = Vector2(2, 1)
+shape = SubResource("CapsuleShape2D_tu72a")
+
+[node name="Camera2D" type="Camera2D" parent="KOrotkov player"]
+position = Vector2(3, 2)
+scale = Vector2(4, 4)
+
+[node name="walk_sound" type="AudioStreamPlayer" parent="KOrotkov player"]
+stream = ExtResource("57_fb7tv")
+volume_db = 6.803
+bus = &"Sounds"
+
+[node name="Weapon" type="Node2D" parent="KOrotkov player"]
+position = Vector2(0, 2)
+
+[node name="Area2D" type="Area2D" parent="KOrotkov player/Weapon"]
+position = Vector2(2, 1)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="KOrotkov player/Weapon/Area2D"]
+visible = false
+position = Vector2(1, -149)
+scale = Vector2(2.79688, 2.79688)
+sprite_frames = SubResource("SpriteFrames_hcdvj")
+animation = &"attack"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KOrotkov player/Weapon/Area2D"]
+position = Vector2(163, -8)
+shape = SubResource("CircleShape2D_pebfw")
+
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="Sunduk" type="Sprite2D" parent="StaticBody2D"]
@@ -421,29 +518,6 @@ texture = ExtResource("8_kahyr")
 position = Vector2(681.5, 166.5)
 scale = Vector2(3.21446, 4.24175)
 shape = SubResource("RectangleShape2D_es4dp")
-
-[node name="KOrotkov player" type="CharacterBody2D" parent="."]
-script = ExtResource("21_hordg")
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="KOrotkov player"]
-position = Vector2(198, 219)
-scale = Vector2(3.5, 3.5)
-sprite_frames = SubResource("SpriteFrames_qwi21")
-animation = &"down right"
-speed_scale = 1.5
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="KOrotkov player"]
-light_mask = 5
-position = Vector2(194, 230.5)
-shape = SubResource("RectangleShape2D_8q6y0")
-
-[node name="Camera2D" type="Camera2D" parent="KOrotkov player"]
-position = Vector2(197, 239)
-
-[node name="walk_sound" type="AudioStreamPlayer" parent="KOrotkov player"]
-stream = ExtResource("50_gggjy")
-volume_db = 6.803
-bus = &"Sounds"
 
 [node name="StaticBody2D3" type="StaticBody2D" parent="."]
 
@@ -493,18 +567,23 @@ autoplay = true
 bus = &"Music"
 
 [node name="Area2D" type="Area2D" parent="."]
+position = Vector2(596, 607)
 
 [node name="ExitDoor" type="Sprite2D" parent="Area2D"]
-position = Vector2(590, 607)
+position = Vector2(-2, -1)
 scale = Vector2(3.25, 8.125)
 texture = ExtResource("55_jqc80")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(582.375, 607)
+position = Vector2(-18, -1)
 shape = SubResource("RectangleShape2D_1mh6u")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="PauseMenu" parent="CanvasLayer" instance=ExtResource("57_f0vc6")]
+offset_left = 8.0
+offset_top = 16.0
+offset_right = 8.0
+offset_bottom = 16.0
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
